@@ -1,0 +1,179 @@
+body, h1, h2, p, ul{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%
+
+}
+
+.targer_text_img p{
+    font-family: Monospace, serif;
+
+ }
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    min-width: 320px;
+    padding: 0;
+}
+
+
+/*HEADER  HEADER HEADER  HEADER   HEADER  HEADER*/
+.header{
+   position: relative;
+    background-image: url('img/16004635331170164.jpg');
+    background-size: cover; /* Растягивает изображение на весь размер контейнера */
+    background-position: center; /* Центрирует изображение */
+  height: 600px;
+  width: 100%;
+  box-shadow: 5px 0 5px #999, -5px 0 5px #999;
+}
+.nav-header {
+    background: #232227;
+    min-height: 40px;
+}
+
+.ul_top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right_list{
+    display: flex;
+}
+
+.ul_top li:not(:last-child) {
+    margin-right: 15px;
+   
+}
+
+
+.header_h1{
+   
+    position: absolute;
+    right: 50px;
+    top: 200px;
+}
+
+.header h1{
+    color: #fff;
+    font-size: 72px;
+}
+
+
+
+                                             /* main   main   main    main   main */
+
+
+.about_link{
+    margin-top: 30px;
+   
+   
+}
+.about_link h2{
+    text-align: center;
+    font-size: 32px;
+
+}
+.about_img{
+    text-align: center;
+}
+.about_text{
+    margin: 20px 0px;
+}
+
+.targer_link{
+    position: relative;
+     background-image: url('img/mini_magick20190801-54-6davi6.jpg');
+     background-size: cover; /* Растягивает изображение на весь размер контейнера */
+     background-position: center; /* Центрирует изображение */
+   height: 600px;
+   width: 100%;
+   opacity: 0.8;
+   box-shadow: 5px 0 5px #999, -5px 0 5px #999;
+ }
+
+
+ .about_img {
+display: flex;
+margin: 50px 0px;
+justify-content: center;
+align-items: center;
+
+ }
+ .about_img img{
+    width: 200px;
+ }
+
+ .targer_text_img{
+display: flex;
+gap: 190px;
+}
+
+
+.targer_text .blue{
+    color:#ffffff;
+    font-size: 48px;
+   display: inline;
+   background-color: rgb(0, 0, 0);
+   padding: 2px 0;
+ 
+}
+
+ 
+.targer_text .black_p{
+    font-size: 70px;
+    color:#15e1ea;
+    display: inline;
+    background-color: rgb(0, 0, 0);
+}
+.targer_text{
+    margin-top: 40px;
+}
+
+li a{
+    color: #fff;
+    font-size: 22px;
+}
+a {
+    text-decoration: none;
+ }
+ a:hover{
+    color:#15e1ea;
+    text-decoration: underline;
+ }
+
+ li{
+    list-style: none;
+ }
+
+
+                       /* Footer  Footer  Footer   Footer   Footer*/
+
+.footer{
+    background: #0087ad;
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+    
+}
+.links h2{
+    font-size: 38px;
+}
+
+.link img{
+    width: 39px;
+}
+
+
